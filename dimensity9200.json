@@ -1,5 +1,5 @@
 {
-  "name": "Dimensity9200/9200+StrongX4",
+  "name": "Dimensity9200/9200+StrongX5",
   "author": "XiaHuaBeiChiDiaoLe",
   "configVersion": 10,
   "CpuGovernor": {
@@ -23,7 +23,7 @@
         "coreNum": 3,
         "perfScale": 340,
         "lowPowerFreq": 700,
-        "optimalFreq": 2300,
+        "optimalFreq": 2100,
         "modelFreq": 3000,
         "modelPower": 1900
       },
@@ -31,14 +31,14 @@
         "coreNum": 1,
         "perfScale": 460,
         "lowPowerFreq": 1200,
-        "optimalFreq": 2600,
-        "modelFreq": 2850,
+        "optimalFreq": 2400,
+        "modelFreq": 3350,
         "modelPower": 3120
       }
     ],
     "modes": {
       "powersave": {
-        "powerLimit": 2500,
+        "powerLimit": 2350
         "perfMargin": [13, 15, 17],
         "upRateLatency": 700,
         "overHeatTemp": 95,
@@ -90,7 +90,7 @@
         }
       },
       "balance": {
-        "powerLimit": 3500,
+        "powerLimit": 3350,
         "perfMargin": [19, 21, 23],
         "upRateLatency": 500,
         "overHeatTemp": 95,
@@ -142,7 +142,7 @@
         }
       },
       "performance": {
-        "powerLimit": 5500,
+        "powerLimit": 4350,
         "perfMargin": [25, 27, 29],
         "upRateLatency": 300,
         "overHeatTemp": 95,
@@ -576,19 +576,19 @@
     ],
     "modes": {
       "powersave": {
-        "maxFreq": 265,
+        "maxFreq": 224,
         "minFreq": 0,
         "upRateThres": 90,
         "downRateDiff": 10
       },
       "balance": {
-        "maxFreq": 565,
+        "maxFreq": 495,
         "minFreq": 0,
         "upRateThres": 80,
         "downRateDiff": 10
       },
       "performance": {
-        "maxFreq": 856,
+        "maxFreq": 887,
         "minFreq": 0,
         "upRateThres": 70,
         "downRateDiff": 10
